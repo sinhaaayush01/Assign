@@ -101,7 +101,7 @@ ul a {
     padding-bottom: 10px;
     height: 460px;
     width: 1000px;
-    border-radius: 20px;
+    border-radius: 5px;
     color: #02A9EA;
     padding-bottom: 10px;
 }
@@ -109,7 +109,7 @@ ul a {
     float: left;
     margin-top: 0px;
     padding-top: 0px;
-    border-radius: 20px;
+    border-radius: 5px;
 }
 .textsection p{
     float: left;
