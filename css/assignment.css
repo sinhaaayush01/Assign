@@ -90,7 +90,7 @@ ul a {
 
 
 .textsection {
-	background: url(../img/au.jpg) no-repeat;
+    background: url(../img/au.jpg) no-repeat;
     background-size: 1000px 460px;
     font-size: 50px;
     text-align: center;
@@ -105,28 +105,30 @@ ul a {
     color: yellow;
     padding-bottom: 10px;
 }
-.textsection img{
+
+.textsection img {
     float: left;
     margin-top: 0px;
     padding-top: 0px;
     border-radius: 5px;
     width: 100px;
     height: 100px;
-
 }
-.textsection p{
+
+.textsection p {
     margin-top: 85px;
     float: left;
     font-size: 17px;
     color: black;
     font-family: 'Pacifico', cursive;
 }
-h3{
+
+h3 {
     margin-top: 10px;
 }
 
-.change{
-	margin-top: 100px;
+.change {
+    margin-top: 100px;
     font-size: 30px;
     font-family: 'Rammetto One', cursive;
     color: white;
@@ -136,8 +138,9 @@ h3{
     flex: 1;
     background: transparent;
 }
-.m{
-background: url("../img/background.jpg") no-repeat;
+
+.m {
+    background: url("../img/background.jpg") no-repeat;
     margin-top: 10px;
     background-size: cover;
     position: absolute;
@@ -147,7 +150,7 @@ background: url("../img/background.jpg") no-repeat;
 }
 
 .columnlayout {
-    
+
     text-align: center;
     display: flex;
     padding: 20px;
@@ -165,32 +168,35 @@ background: url("../img/background.jpg") no-repeat;
 }
 
 .callout:nth-child(1) {
-	font-size: 30px;
-	color: black;
+    font-size: 30px;
+    color: black;
     box-shadow: 0 5px 5px 0px black;
     background: url("../img/bang.jpg") no-repeat
 }
 
 .callout:nth-child(2) {
-	font-size: 30px;
-	color: black;
+    font-size: 30px;
+    color: black;
     box-shadow: 0 5px 5px 0px black;
     background: url("../img/bang.jpg") no-repeat;
 }
 
 .callout:nth-child(3) {
-	font-size: 30px;
-	color: black;
+    font-size: 30px;
+    color: black;
     box-shadow: 0 5px 5px 0px black;
     background: url("../img/bang.jpg") no-repeat;
 }
-.callout a{
-	color: black;
-	text-decoration: none;
+
+.callout a {
+    color: black;
+    text-decoration: none;
 }
-.callout ul li{
-	list-style: none;
+
+.callout ul li {
+    list-style: none;
 }
+
 .foot {
     position: absolute;
     margin-top: 600px;
@@ -248,32 +254,40 @@ background: url("../img/background.jpg") no-repeat;
 .foot1 ul li a:hover {
     color: green;
 }
-h6{
-	margin-top: 10px;
-	margin-bottom: 10px;
-	font-size: 60px;
+
+h6 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 60px;
 }
-h5{
-	text-indent: -20000px;
-	margin-top: 0px;
-	margin-bottom: 0px;
+
+h5 {
+    text-indent: -20000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
-aside{
-	margin-top: 0px;
+
+aside {
+    margin-top: 0px;
 }
-ul li{
-	margin-top: 0;
+
+ul li {
+    margin-top: 0;
 }
-.in{
-	text-indent: -999999px;
-	position: absolute;
+
+.in {
+    text-indent: -999999px;
+    position: absolute;
 }
-.callout p{
-	font-family: 'Rammetto One', cursive;
+
+.callout p {
+    font-family: 'Rammetto One', cursive;
 }
-.callout a:hover{
-	color: green;
+
+.callout a:hover {
+    color: green;
 }
-.fa{
+
+.fa {
     color: white;
 }
