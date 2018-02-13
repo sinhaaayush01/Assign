@@ -40,7 +40,6 @@ header {
 .header1 {
     display: flex;
     text-align: left;
-    ;
 }
 
 .image img {
@@ -91,7 +90,8 @@ ul a {
 
 
 .textsection {
-	background: url(../img/w.jpg);
+	background: url(../img/au.jpg) no-repeat;
+    background-size: 1000px 460px;
     font-size: 50px;
     text-align: center;
     margin: auto;
@@ -102,7 +102,7 @@ ul a {
     height: 460px;
     width: 1000px;
     border-radius: 5px;
-    color: #02A9EA;
+    color: yellow;
     padding-bottom: 10px;
 }
 .textsection img{
@@ -110,11 +110,14 @@ ul a {
     margin-top: 0px;
     padding-top: 0px;
     border-radius: 5px;
+    width: 100px;
+    height: 100px;
+
 }
 .textsection p{
     float: left;
-    font-size: 15px;
-    color: green;
+    font-size: 17px;
+    color: black;
     font-family: 'Pacifico', cursive;
 }
 h3{
@@ -269,4 +272,7 @@ ul li{
 }
 .callout a:hover{
 	color: green;
+}
+.fa{
+    color: white;
 }
