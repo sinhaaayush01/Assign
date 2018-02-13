@@ -115,6 +115,7 @@ ul a {
 
 }
 .textsection p{
+    margin-top: 85px;
     float: left;
     font-size: 17px;
     color: black;
