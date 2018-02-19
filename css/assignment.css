@@ -172,7 +172,7 @@ h3 {
     font-size: 30px;
     color: black;
     box-shadow: 0 5px 5px 0px black;
-    background: url("../img/bang.jpg") no-repeat
+    background: url("../img/bang.jpg") no-repeat;
 }
 
 .callout:nth-child(2) {
@@ -330,12 +330,16 @@ ul li {
     list-style: none;
 }
 .x1{
-    min-width: 200px;
-    align-self: left;
+    align-self: flex-start;
     box-shadow: 0 2px 5px 0 black;
     max-height: 50px;
     padding: 35px;
     font-size: 30px;
+    justify-content: center;
+    padding-right: 100px;
+    margin-left: 120px;
+    width: 245px;
+    padding-left: 100px;
 }
 .x1 a{
     text-decoration: none;
@@ -349,4 +353,8 @@ ul li {
 }
 #change{
     margin-bottom: 0px;
+}
+.hhh{
+    position: absolute;
+    text-indent: -9999px;
 }
